@@ -1,0 +1,42 @@
+#header_buttons_right {
+    text-align: right;
+    padding-top: 10px;
+}
+
+#header_buttons_left {
+    text-align: left;
+    padding-top: 10px;
+}
+
+#header_buttons {
+    text-decoration: underline;
+    padding-top:10px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.buttons {
+    width: 572px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+button#search {
+    margin-top: 10px;
+    font: bold 11px Arial, sans-serif !important;
+    width: 95px;
+    height: 30px;
+    -webkit-border-radius: 0px;
+}
+button#lucky {
+    font: bold 11px Arial, sans-serif !important;
+    width: 110px;
+    height: 30px;
+}
