@@ -6,29 +6,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./style.css" rel="stylesheet" type="text/css">
     </head>
+
     <body>
         <div id="header_buttons">
-            <div id="header_buttons_right">
-                <a id="Gmail">Gmail</a>
-                <a id="Images">Images</a>
-                <a id="Apps"><img id=app-logo href="https://www.google.com/intl/en/options/"></a>
-                <a id="Signin">Sign in</a>
-            </div>
-
-            <div id="header_buttons_left">
-                <a id="About">About</a>
-                <a id="Store">Store</a>
-            </div>
+            <ul>
+                <li id="Gmail"><a href="https://plus.google.com/?gpsrc=ogpy0&amp;tab=wX">Gmail</a></li>
+                <li id="Images"><a href="https://mail.google.com/mail/?tab=wm">Images</a></li>
+                <li id="apps">
+                <img id=app-logo src="http://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Google-Chrome-App-List-icon.png">
+                </li>
+                <li id="sign_in"><a id="sign-in-text" href="https://accounts.google.com/ServiceLogin?hl=en&amp;continue=https://www.google.com/">Sign In</a></li>
+            </ul>
         </div>
 
-        <div id="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" height="200" width="500" class="center">
+        <div id="google_logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        </div>
+
+        <div id=query>
+            <input type="text"></input>
         </div>
 
         <div class="buttons">
-                <button  type="submit" value="Submit" id="search">Google Search</button>
-                <button id="lucky">I'm Feeling Lucky</button>
+            <button type="submit" value="Submit" id="search">Google Search</button>
+            <button id="lucky">I'm Feeling Lucky</button>
         </div>
 
+        <div id="footer">
+            <div id="footer-left">
+                <ul>
+                    <li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+                    <li><a>Business</a></li>
+                    <li><a>How Search works</a></li>
+                </ul>
+            </div>
+
+            <div id="footer-right">
+                <ul>
+                    <li><a>Settings</a></li>
+                    <li><a>Terms</a></li>
+                    <li><a>Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+            
     </body>
 </html>
