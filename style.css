@@ -119,16 +119,20 @@ div#header_buttons_right ul li#sign_in {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 #query input[type="text"] {
 font-size: 17px;
 }
 
 .buttons {
-    width: 800px;
+    width: 1000px;
     margin: auto;
     margin-top: 30px;
     text-align: center;
+    white-space: nowrap;
 }
+
+/* whitespace with value nowrap got it in one line */
 
 button#search {
     font:  16px Arial, sans-serif !important;
