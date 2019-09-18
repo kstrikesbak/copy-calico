@@ -1,71 +1,4 @@
-/* #header_buttons_right {
-    text-align: right;
-    padding-top: 10px;
-}
 
-#header_buttons_left {
-    text-align: left;
-    padding-top: 10px;
-}
-
-#header_buttons {
-    text-decoration: underline;
-    padding-top:10px;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.buttons {
-    width: 572px;
-    margin: auto;
-    margin-top: 5px;
-    text-align: center;
-}
-
-button#search {
-    margin-top: 10px;
-    font: bold 11px Arial, sans-serif !important;
-    width: 95px;
-    height: 30px;
-    -webkit-border-radius: 0px;
-}
-button#lucky {
-    font: bold 11px Arial, sans-serif !important;
-    width: 110px;
-    height: 30px;
-} */
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
 	line-height: 1;
 }
@@ -85,16 +18,12 @@ table {
 	border-spacing: 0;
 }
 
-/** { 
-  outline: 1px solid black;
-}*/
-
-#header_buttons {
+#header_buttons_right {
     text-align: right;
-    padding-top: 10px;
+    padding-top: 20px;
 }
-#header_buttons a:hover{text-decoration: underline;}
-#header_buttons li, a {
+#header_buttons_right a:hover{text-decoration: underline;}
+#header_buttons_right li, a {
     color: gray;
     text-decoration: none;
     display: inline;
@@ -104,6 +33,22 @@ table {
     font-size: 16px;
 }
 
+#header_buttons_left {
+    text-align: left;
+    padding-top: 20px;
+}
+
+#header_buttons_left li, a {
+    color: gray;
+    text-decoration: none;
+    display: inline;
+    list-style: none;
+    padding: 4px;
+    font-family: Arial sans-serif;
+    font-size: 16px;
+}
+
+#header_buttons_left a:hover{text-decoration: underline;}
 
 #sign_in {
     display: inline-block;
@@ -119,7 +64,6 @@ li#sign_in {
     margin-bottom: 300px;
 }
 
-#sign_in:hover{box-shadow: 0px 1px 0px 0px #e6e6e6;}
 #sign_in a {
     margin: 0 auto;
     font-weight: bold;
@@ -129,12 +73,12 @@ li#sign_in {
 
 #sign-in-text {
     margin-top: 20px;
-    font-family: arial, sans-serif;
-    100.0%
+    font-family: arial, sans-serif
+    100.0%;
     font-size: 13px;
 }
 
-div#header_buttons ul li#sign_in {
+div#header_buttons_right ul li#sign_in {
     display: inline-block;
     width: 70px;
     height: 30px;
@@ -157,7 +101,7 @@ div#header_buttons ul li#sign_in {
     margin-top: 50px;
     margin-bottom: 10px;
 }
-
+/* centres the google logo */
 #google_logo > img{
     display: block;
     margin: 0 auto;
@@ -168,9 +112,9 @@ div#header_buttons ul li#sign_in {
 }
 #query > input {
     width:572px;
-    height:30px;
+    height:45px;
     margin: auto;
-    background-image: url("images/microphone.png");
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
