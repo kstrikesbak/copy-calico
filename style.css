@@ -132,7 +132,7 @@ button#lucky {
     position: absolute;
     bottom: 0;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 60px;
     max-height: 42px;
     width: 100%;   
     background-color: rgb(242, 242, 242);
