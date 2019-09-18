@@ -1,23 +1,4 @@
 
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 #header_buttons_right {
     text-align: right;
     padding-top: 20px;
@@ -158,13 +139,9 @@ button#lucky {
     /* used colorzilla extension to find this */
 }
 
-
-
-
 #footer-left ul li{
     float: left;
-/*    border:1px solid black;
-*/    display: inline;
+    display: inline;
     padding: 5px 3px;
     padding-top: 14px;
     vertical-align: bottom;
